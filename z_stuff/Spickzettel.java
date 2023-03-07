@@ -1,4 +1,4 @@
-package de.basics;
+package de.basics.z_stuff;
 //Package zuweisen
 
 import java.util.ArrayList;

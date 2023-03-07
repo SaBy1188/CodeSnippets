@@ -1,4 +1,4 @@
-package de.basics;
+package de.basics.z_stuff;
 
 public class SinnvollerCode {
     public static void main(String[] args) {

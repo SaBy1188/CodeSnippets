@@ -1,4 +1,4 @@
-package de.basics;
+package de.basics.z_stuff;
 
 import java.util.Random;
 

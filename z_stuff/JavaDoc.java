@@ -1,4 +1,4 @@
-package de.basics;
+package de.basics.z_stuff;
 
 public class JavaDoc {
     public static void main(String[] args) {
