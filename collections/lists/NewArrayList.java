@@ -1,12 +1,12 @@
-package de.basics.collections;
+package de.basics.collections.lists;
 
 import java.util.ArrayList;
 
-public class ListNewList {
+public class NewArrayList {
     // Methode zur Erstellung einer neuen ArrayListe für ganze Zahlen
 
     public static ArrayList<Integer> geradeZahlenNeueListe(ArrayList<Integer> zahlen) {
-        ArrayList<Integer> geradeZahlenNeueListe = new ArrayList<Integer>( );
+        ArrayList<Integer> geradeZahlenNeueListe = new ArrayList<>( );
         for(int zahl : zahlen) {
             if(zahl % 2 == 0) {
                 geradeZahlenNeueListe.add(zahl);

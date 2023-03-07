@@ -1,5 +1,7 @@
 package de.basics.datentypen.string;
 
+import java.util.Scanner;
+
 public class StringToInteger {
     public static void main(String[] args) {
 
@@ -28,5 +30,26 @@ public class StringToInteger {
         String t = "10";
         System.out.println(Integer.parseInt(t)); // Hier wird die int-Zahl in keiner Variable gespeichert!
         System.out.println(t + 2);
+
+        // Beispiel Anwendung
+        Scanner scanner = new Scanner(System.in);
+
+        int zahl1 = 0;
+        int zahl2 = 0;
+        int ergebnis = 0;
+
+        System.out.println("Zahl 1 eingeben:" );
+        if (scanner.hasNext()) {
+            String input = scanner.nextLine();
+            zahl1 = Integer.parseInt(input);
+        }
+
+        System.out.println("Zahl 2 eingeben:" );
+        if (scanner.hasNext()) {
+            String input = scanner.nextLine();
+            zahl2 = Integer.parseInt(input);
+        }
+        ergebnis = zahl1 + zahl2;
+        System.out.println("Das Ergebnis ist " + ergebnis );
     }
 }
